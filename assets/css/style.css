@@ -139,8 +139,11 @@ img.article-image {
   height: auto;
 }
 img.contact{
-  width: 90%;
-  height:330px;
+  width: 100%;
+  height:305px;
+}
+img.couch{
+  height:225px;
 }
 
 .portfolio-max-width {
