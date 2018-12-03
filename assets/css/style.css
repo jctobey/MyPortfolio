@@ -138,6 +138,10 @@ img.article-image {
   width: 100%;
   height: auto;
 }
+img.contact{
+  width: 90%;
+  height:330px;
+}
 
 .portfolio-max-width {
   max-width: 900px;
