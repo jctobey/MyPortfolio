@@ -49,12 +49,24 @@
   width: 256px;
   margin: auto 20px 10px;
 }
+.profile{
+  height: 250px;
+  width: 200px;
+  margin: auto auto 10px 33px;
+}
 
-.is-compact .portfolio-logo {
+.is-compact .portfolio-logo, .is-compact .portfolio-logo-3 {
   height: 50px;
   width: 50px;
   margin-top: 7px;
 }
+
+.is-compact .portfolio-logo-2 {
+  height: 50px;
+  width: 100px;
+  margin-top: 7px;
+}
+
 
 .portfolio-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
