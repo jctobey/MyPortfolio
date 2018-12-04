@@ -42,6 +42,7 @@
   width: 480px;
   margin: auto 20px -5px -100px;
 }
+
 .portfolio-logo-3 {
   background: url(../img/node.png) 50% no-repeat;
   background-size: cover;
@@ -65,6 +66,8 @@
   height: 50px;
   width: 100px;
   margin-top: 7px;
+  margin-left:1px;
+  
 }
 
 
@@ -197,7 +200,10 @@ img.couch{
 }
 
 footer {
-  background-image: url(images/footer-background.png);
+  background-image: "../img/white-header.jpg";
   background-size: cover;
+}
+.center-header{
+ margin-left:1px;
 }
 
