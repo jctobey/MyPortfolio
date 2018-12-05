@@ -1,8 +1,9 @@
-$(document).ready(function($) {
+$(document).ready(function() {
   var alterClass = function() {
     var ww = $( window ).width();
     if (ww <= 1000) {
       $('.portfolio-header').addClass('is-casting-shadow is-compact');
+      console.log("fired off")
     }
     else if(ww>1000){
       $('.portfolio-header').removeClass('is-casting-shadow is-compact');
