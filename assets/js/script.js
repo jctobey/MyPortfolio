@@ -1,19 +1,17 @@
 $(document).ready(function() {
   var alterClass = function() {
-    var ww = $( window ).width();
+    var ww = $(window).width();
     if (ww <= 1000) {
-      $('.portfolio-header').addClass('is-casting-shadow is-compact');
-      console.log("fired off")
-    }
-    else if(ww>1000){
-      $('.portfolio-header').removeClass('is-casting-shadow is-compact');
+      $(".portfolio-header").addClass("is-casting-shadow is-compact");
+      console.log("fired off");
+    } else if (ww > 1000) {
+      $(".portfolio-header").removeClass("is-casting-shadow is-compact");
     }
   };
-  $(window).resize(function(){
+  $(window).resize(function() {
     alterClass();
   });
   //Fire it when the page first loads:
   alterClass();
-  console.log(document.body.clientWidth)
+  console.log(document.body.clientWidth);
 });
- 
